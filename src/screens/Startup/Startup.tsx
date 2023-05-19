@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { ActivityIndicator, View } from 'react-native';
+import { ActivityIndicator, StatusBar, View } from 'react-native';
 import { useTheme } from '../../hooks';
-import { Brand } from '../../components';
+import { AppLoading } from '../../components';
 import { setDefaultTheme } from '../../store/theme';
 import { ApplicationScreenProps } from '../../../@types/navigation';
 
@@ -26,9 +26,8 @@ const Startup = ({ navigation }: ApplicationScreenProps) => {
   }, []);
 
   return (
-    <View style={[Layout.fill, Layout.colCenter]}>
-      <Brand />
-      <ActivityIndicator size={'large'} style={[Gutters.largeVMargin]} />
+    <View  style={[Layout.fill, Layout.colCenter]}>
+      <AppLoading />
     </View>
   );
 };

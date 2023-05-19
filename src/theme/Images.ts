@@ -2,7 +2,8 @@ import { ThemeVariables } from '../../@types/theme';
 
 export default function ({}: ThemeVariables) {
   return {
-    logo: require('./assets/images/tom_light.png'),
+    logo: require('./assets/images/spreadLogo.png'),
+    splash: require('./assets/images/main.png'),
     sparkles: {
       topLeft: require('./assets/images/sparkles-top-left.png'),
       top: require('./assets/images/sparkles-top.png'),

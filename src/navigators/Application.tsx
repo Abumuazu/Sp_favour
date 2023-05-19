@@ -12,6 +12,7 @@ import { useFlipper } from '@react-navigation/devtools';
 import { ApplicationStackParamList } from '../../@types/navigation';
 
 const Stack = createStackNavigator<ApplicationStackParamList>();
+const Splashscreen = createStackNavigator<ApplicationStackParamList>();
 
 // @refresh reset
 const ApplicationNavigator = () => {

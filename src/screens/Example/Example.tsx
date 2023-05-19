@@ -70,7 +70,7 @@ const Example = () => {
             {
               height: 250,
               width: 250,
-              backgroundColor: isDark ? '#000000' : '#DFDFDF',
+              backgroundColor: isDark ? '#353535' : '#DFDFDF',
               borderRadius: 140,
             },
           ]}
