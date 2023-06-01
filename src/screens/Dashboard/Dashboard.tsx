@@ -75,7 +75,7 @@ const Example = () => {
             },
           ]}
         />
-        <Image
+        {/* <Image
           style={[
             Layout.absolute,
             {
@@ -85,7 +85,7 @@ const Example = () => {
           ]}
           source={Images.sparkles.bottomLeft}
           resizeMode={'contain'}
-        />
+        /> */}
         <View
           style={[
             Layout.absolute,
@@ -98,7 +98,7 @@ const Example = () => {
         >
           <Brand height={300} width={300} />
         </View>
-        <Image
+        {/* <Image
           style={[
             Layout.absolute,
             Layout.fill,
@@ -109,8 +109,8 @@ const Example = () => {
           ]}
           source={Images.sparkles.topLeft}
           resizeMode={'contain'}
-        />
-        <Image
+        /> */}
+        {/* <Image
           style={[
             Layout.absolute,
             {
@@ -120,8 +120,8 @@ const Example = () => {
           ]}
           source={Images.sparkles.top}
           resizeMode={'contain'}
-        />
-        <Image
+        /> */}
+        {/* <Image
           style={[
             Layout.absolute,
             {
@@ -131,8 +131,8 @@ const Example = () => {
           ]}
           source={Images.sparkles.topRight}
           resizeMode={'contain'}
-        />
-        <Image
+        /> */}
+        {/* <Image
           style={[
             Layout.absolute,
             {
@@ -142,8 +142,8 @@ const Example = () => {
           ]}
           source={Images.sparkles.right}
           resizeMode={'contain'}
-        />
-
+        /> */}
+{/* 
         <Image
           style={[
             Layout.absolute,
@@ -154,8 +154,8 @@ const Example = () => {
           ]}
           source={Images.sparkles.bottom}
           resizeMode={'contain'}
-        />
-        <Image
+        /> */}
+        {/* <Image
           style={[
             Layout.absolute,
             {
@@ -165,7 +165,7 @@ const Example = () => {
           ]}
           source={Images.sparkles.bottomRight}
           resizeMode={'contain'}
-        />
+        /> */}
       </View>
       <View
         style={[
